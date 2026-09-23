@@ -5001,7 +5001,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b97b087-cb92-4c24-82c6-6351127ebd61")
 		(property "Reference" "#PWR033"
 			(at 179.07 80.01 0)
@@ -5014,14 +5013,15 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 179.07 71.12 0)
+		(property "Value" "+5V_USB"
+			(at 174.752 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
